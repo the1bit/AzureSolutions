@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome to my GitHub page
 
-You can use the [editor on GitHub](https://github.com/the1bit/AzureSolutions/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+My name is Tibor Kiss and I would like to share some useful knowledge with you which is related **Microsoft Azure**. I hope you can use them in your job or for your learning.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+If you have any questions please do not hesitate to contact me. I'd appreciate any kind of feedback from your side.'
 
-### Markdown
+You can use this page and codes [from GitHub](https://github.com/the1bit/AzureSolutions/master/README.md) as well.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Related topics
+[Playground on Git](https://the1bit.github.io/Playground/)
 
-```markdown
-Syntax highlighted code block
+## About me
+* Name: Tibor Kiss
+* Blog / Homepage: [www.the1bit.hu](http://www.the1bit.hu)
+* Cerifications:
+	* Microsoft Certified Solutions Associate: *Cloud Platform* (MCSA)
+	* TOGAF 9 Foundation certified Person
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/the1bit/AzureSolutions/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
