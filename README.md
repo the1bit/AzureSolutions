@@ -4,7 +4,7 @@ My name is Tibor Kiss and I would like to share some useful knowledge with you w
 
 If you have any questions please do not hesitate to contact me. I'd appreciate any kind of feedback from your side.'
 
-You can use this page and codes [from GitHub](https://github.com/the1bit/AzureSolutions/master/README.md) as well.
+You can use this page and codes [from GitHub](https://github.com/the1bit/AzureSolutions) as well.
 
 ## Related topics
 [Playground on Git](https://the1bit.github.io/Playground/)
