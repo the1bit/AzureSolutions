@@ -18,7 +18,7 @@ Content
 			* Azure-Cli 2.0
 			* PowerShell with Azure
 
-* `isPremiumVM <https://github.com/the1bit/AzureSolutions/tree/master/isPremiumVM>`_
+* `isPremiumSA <https://github.com/the1bit/AzureSolutions/tree/master/isPremiumSA>`_
 	* Description: Example for using conditional IF statements in ARM template. 
 	* Prerequisites:
 		* Azure access

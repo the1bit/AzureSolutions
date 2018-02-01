@@ -2,6 +2,13 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "2.0.1.8",
   "parameters": {
+    "storageAccountName": {
+      "type": "string",
+      "defaultValue": "mystorageaccount",
+      "metadata": {
+        "description": "Azure clod level unique name for storage account. Max. 24 character"
+      }
+    },
     "VMSize": {
       "type": "string",
       "defaultValue": "Standard_DS2_v2",
@@ -129,7 +136,21 @@
     "storageAccountType": "[if(contains(variables('vmSizeProfile'), 'S'), 'Premium_LRS', if(contains(variables('vmSizeProfile'), 's'), 'Premium_LRS', 'Standard_LRS'))]",
     "storageTier": "[if(contains(variables('vmSizeProfile'), 'S'), 'Premium', if(contains(variables('vmSizeProfile'), 's'), 'Premium', 'Standard'))]"
   },
-  "resources": [],
+  "resources": [
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "name": "[parameters('storageAccountName')]",
+      "apiVersion": "2016-01-01",
+      "location": "[resourceGroup().location]",
+      "sku": {
+        "name": "[variables('storageAccountType')]",
+        "tier": "[variables('storageTier')]"
+      },
+      "kind": "Storage",
+      "properties": {
+      }
+    }
+  ],
   "outputs": {
     "location": {
       "type": "string",
