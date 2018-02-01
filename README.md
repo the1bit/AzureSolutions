@@ -15,7 +15,7 @@ You can use this page and codes [from GitHub](https://github.com/the1bit/AzureSo
 			* Azure-Cli 2.0
 			* PowerShell with Azure
 
-* [isPremiumVM](https://github.com/the1bit/AzureSolutions/tree/master/isPremiumVM)
+* [isPremiumSA](https://github.com/the1bit/AzureSolutions/tree/master/isPremiumSA)
 	* Description: Example for using conditional IF statements in ARM template. 
 	* Prerequisites:
 		* Azure access
