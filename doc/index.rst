@@ -1,4 +1,6 @@
-## Welcome to my GitHub page
+=========================
+Welcome to my GitHub page
+=========================
 
 My name is Tibor Kiss and I would like to share some useful knowledge with you which is related **Microsoft Azure**. I hope you can use them in your job or for your learning.
 
@@ -6,8 +8,9 @@ If you have any questions please do not hesitate to contact me. I'd appreciate a
 
 You can use this page and codes [from GitHub](https://github.com/the1bit/AzureSolutions) as well.
 
-## Content
-* [MerryXMas](https://github.com/the1bit/AzureSolutions/tree/master/MerryXMas)
+Content
+-------
+* `MerryXMas <https://github.com/the1bit/AzureSolutions/tree/master/MerryXMas>`_
 	* Description: I wish you a Merry XMAS and a Happy New Year for 2018.
 	* Prerequisites:
 		* Azure access
@@ -15,7 +18,7 @@ You can use this page and codes [from GitHub](https://github.com/the1bit/AzureSo
 			* Azure-Cli 2.0
 			* PowerShell with Azure
 
-* [isPremiumVM](https://github.com/the1bit/AzureSolutions/tree/master/isPremiumVM)
+* `isPremiumVM <https://github.com/the1bit/AzureSolutions/tree/master/isPremiumVM>`_
 	* Description: Example for using conditional IF statements in ARM template. 
 	* Prerequisites:
 		* Azure access
@@ -23,10 +26,13 @@ You can use this page and codes [from GitHub](https://github.com/the1bit/AzureSo
 			* Azure-Cli 2.0
 			* PowerShell with Azure
 
-## Related topics
+
+Related topics
+--------------
 [Playground on Git](https://the1bit.github.io/Playground/)
 
-## About me
+About me
+--------
 * Name: Tibor Kiss
 * Blog / Homepage: [www.the1bit.hu](http://www.the1bit.hu)
 * Cerifications:

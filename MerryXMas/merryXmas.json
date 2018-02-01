@@ -1,0 +1,136 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "2.0.1.7",
+	"parameters": {
+		"your_nick_name": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 5,
+			"metadata": {
+				"description": "Your nick name which is not longer than 5 characters. (Without any special character and mustn't start with number.)"
+			}
+		},
+		"XMAS_EVE": {
+			"type": "string",
+			"defaultValue": "24dec",
+			"allowedValues": [
+				"24dec"
+			],
+			"metadata": {
+				"description": "Christmas Eve is the evening or entire day before Christmas Day."
+			}
+		},
+		"XMAS_EVENT_TYPE": {
+			"type": "string",
+			"allowedValues": [
+				"Family",
+				"Friends",
+				"Wife",
+				"Husband",
+				"Girlfriend",
+				"Boyfriend",
+				"Azure"
+			],
+			"metadata": {
+				"description": "How will you spend Christmas with?"
+			}
+		},
+		"NEWYEAR_EVE": {
+			"type": "string",
+			"defaultValue": "31dec",
+			"allowedValues": [
+				"31dec"
+			],
+			"metadata": {
+				"description": "Old Year's Day or Saint Sylvester's Day, the last day of the year, is on December 31 which is the seventh day of the Christmas season. "
+			}
+		},
+		"NEWYEAR_EVENT_TYPE": {
+			"type": "string",
+			"allowedValues": [
+				"Party",
+				"Home",
+				"Abroad",
+				"Wellness",
+				"Skiing",
+				"Azure"
+			],
+			"metadata": {
+				"description": "How will you spend New Years Eve with?"
+			}
+		}
+	},
+	"variables": {
+		"location": "[resourceGroup().location]",
+		"xmasobjectname": "[toLower(concat(replace(parameters('your_nick_name'), '-', ''), 'xmas' , replace(parameters('XMAS_EVE'), '-', ''), replace(parameters('XMAS_EVENT_TYPE'), '-', '')))]",
+		"newyearobjectname": "[toLower(concat(replace(parameters('your_nick_name'), '-', ''), 'ny' , replace(parameters('NEWYEAR_EVE'), '-', ''), replace(parameters('NEWYEAR_EVENT_TYPE'), '-', '')))]"
+	},
+	"resources": [
+		{
+			"comments": "### Merry XMAS",
+			"type": "Microsoft.Storage/storageAccounts",
+			"sku": {
+				"name": "Standard_LRS",
+				"tier": "Standard"
+			},
+			"kind": "Storage",
+			"name": "[variables('xmasobjectname')]",
+			"apiVersion": "2016-01-01",
+			"location": "[variables('location')]",
+			"tags": {
+				"EventName": "XMAS EVE",
+				"MemberName": "[parameters('your_nick_name')]",
+				"Year": "2017",
+				"XMASEVE": "[parameters('XMAS_EVE')]",
+				"Event_Type": "[parameters('XMAS_EVENT_TYPE')]",
+				"Gifts": "Lovely presents",
+				"Food": "Steak, Turkey",
+				"Drink": "Glühwein, Feuerzangenbowle",
+				"Feeling": "Paceful, Happy",
+				"Other": "HOHOHOHO"
+			},
+			"scale": null,
+			"properties": {},
+			"dependsOn": []
+		},
+		{
+			"comments": "### Happy New Year",
+			"type": "Microsoft.Storage/storageAccounts",
+			"sku": {
+				"name": "Standard_LRS",
+				"tier": "Standard"
+			},
+			"kind": "Storage",
+			"name": "[variables('newyearobjectname')]",
+			"apiVersion": "2016-01-01",
+			"location": "[variables('location')]",
+			"tags": {
+				"EventName": "NEW YEAR EVE",
+				"MemberName": "[parameters('your_nick_name')]",
+				"Year": "2017",
+				"NEWYEAREVE": "[parameters('NEWYEAR_EVE')]",
+				"Event_Type": "[parameters('NEWYEAR_EVENT_TYPE')]",
+				"Decoration": "Confetti",
+				"Food": "Frankfurter",
+				"Drink": "Champagne",
+				"Feeleng": "Crazy",
+				"Other": "Party until dawn! Happy New Year 2018"
+			},
+			"scale": null,
+			"properties": {},
+			"dependsOn": [
+				"[resourceId('Microsoft.Storage/storageAccounts', variables('xmasobjectname'))]"
+			]
+		}
+	],
+	"outputs": {
+		"XMAS_MESSAGE":{
+			"type": "string",
+			"value": "[concat('Hi ', parameters('your_nick_name') ,'! I wish you a MERRY XMAS! Thank you for your support in 2017! All the best: Tibor Kiss')]"
+		},
+		"NEWYEAR_MESSAGE":{
+			"type": "string",
+			"value": "[concat('Hi ', parameters('your_nick_name') ,'! I wish you a HAPPY NEW YEAR for 2018! Thank you for your support in 2017! All the best: Tibor Kiss')]"
+		}
+	}
+}
