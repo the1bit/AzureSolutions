@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\doc",
+    "\\isPremiumSA",
+    "\\MerryXMas"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\isPremiumSA\\isPremiumSA_Template.json",
   "PreviewInSolutionExplorer": false
 }
