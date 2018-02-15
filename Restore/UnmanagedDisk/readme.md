@@ -12,6 +12,7 @@ OS disk and Data disks realted vhds must be in the following format:
 
 ## Prerequisites
 * Azure-Cli 2.x
+* Python 2.7
 
 ## Usage
 0. Make a note with the name and size of the VM
