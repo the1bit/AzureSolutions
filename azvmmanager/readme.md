@@ -19,7 +19,7 @@ Everybody knows the automatic VM shutdown function in Azure. This solution helps
 3. Edit configuration file in **config** directory
 ``` bash 
 {
-        "vmName": "<name of your vm>",
+		"vmName": "<name of your vm>",
 		"vmResourceGroup": "<vm resource group>",
 		"azure": {
 			"cloudName": "AzureCloud",
