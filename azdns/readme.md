@@ -22,16 +22,16 @@ This is not 100% free. The monthly cost in case of a "Pay-AS-YOU-GO" subscriptio
 3. Edit configuration file in **config** directory
 ``` bash 
 {
-        "zoneName": "<domain name>",
-        "aRecordName": "<subdomain>",
-		"azure": {
-			"cloudName": "AzureCloud",
-			"clientID": "<Service Principal ID>",
-			"clientSecret": "<Service Principal Secret>",
-			"tenant": "<Tenant ID>",
-			"subscriptionID": "<Subscription ID>",
-			"dnsResourceGroup": "<DNS Zone resource group>"
-		}
+	"zoneName": "<domain name>",
+	"aRecordName": "<subdomain>",
+	"azure": {
+		"cloudName": "AzureCloud",
+		"clientID": "<Service Principal ID>",
+		"clientSecret": "<Service Principal Secret>",
+		"tenant": "<Tenant ID>",
+		"subscriptionID": "<Subscription ID>",
+		"dnsResourceGroup": "<DNS Zone resource group>"
+	}
 }
 ```
 4. Save configuration file
