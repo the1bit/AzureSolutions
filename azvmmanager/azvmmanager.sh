@@ -12,7 +12,7 @@ DATE=`date +%Y%m%d%H%M%S`
 # Start logging
 exec 1>"/var/log/azvmmanager/azvmmanager$DATE.log" 2>&1
 echo "$(date) : ##################################################" >&1
-echo "$(date) : ##################################################" >&1
+echo "$(date) : #### azvmmanager v18.6.0 - the1bit#" >&1
 echo "$(date) : ##################################################" >&1
 
 echo "$(date) : # Set config file" >&1

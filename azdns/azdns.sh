@@ -12,7 +12,7 @@ DATE=`date +%Y%m%d%H%M%S`
 # Start logging
 exec 1>"/var/log/azdns/azdns$DATE.log" 2>&1
 echo "$(date) : ##################################################" >&1
-echo "$(date) : ##################################################" >&1
+echo "$(date) : #### azdns v18.6.0 - the1bit" >&1
 echo "$(date) : ##################################################" >&1
 
 echo "$(date) : # Set config file" >&1
@@ -30,7 +30,7 @@ clientID=$(jq -r '.azure.clientID' "$configFile")
 clientSecret=$(jq -r '.azure.clientSecret' "$configFile")
 tenant=$(jq -r '.azure.tenant' "$configFile")
 subscriptionID=$(jq -r '.azure.subscriptionID' "$configFile")
-dnsResourceGroup=$(jq -r '.azure.dnsResourceGroup' "$configFile")
+dnsResourceGroup=$(jq -r '.dnsResourceGroup' "$configFile")
 
 echo "$(date) : # Login to Azure" >&1
 # Login to Azure
