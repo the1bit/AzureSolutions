@@ -15,7 +15,7 @@ You can use this page and codes [from GitHub](https://github.com/the1bit/AzureSo
 		* Azure-Cli 2.0
 		* Linux OS
 * [azdns](https://github.com/the1bit/AzureSolutions/tree/master/azdns)
-	* Description: Alternate for dynamic DNS. This works with Azure DNS zone
+	* Description: Alternative for dynamic DNS. This works with Azure DNS zone
 	* Version: 18.6.0
 	* Prerequisites:
 		* Azure subscriptsion

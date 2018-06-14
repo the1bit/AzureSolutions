@@ -1,9 +1,9 @@
-Azure VM Manegr
+Azure VM Manager
 ===
 
 # Background
 
-Everybody knows the automatic VM shutdown function in Azure. This solution helps you to start your VM in Azure at that time when you schedule. So when you arrive to yout workplace your VM is up and running every time. :-)
+Everybody knows the automatic VM shutdown function in Azure. This solution helps you to start your VM in Azure at that time when you schedule. So when you arrive to your workplace your VM is up and running every time. :-)
 
 # Changelog
 
