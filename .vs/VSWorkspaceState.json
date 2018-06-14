@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\doc",
-    "\\isPremiumSA",
-    "\\MerryXMas"
+    "\\MerryXMas",
+    "\\Restore",
+    "\\Restore\\UnmanagedDisk"
   ],
-  "SelectedNode": "\\isPremiumSA\\isPremiumSA_Template.json",
+  "SelectedNode": "\\Restore\\UnmanagedDisk\\restore.py",
   "PreviewInSolutionExplorer": false
 }
