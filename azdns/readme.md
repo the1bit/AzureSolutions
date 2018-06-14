@@ -13,6 +13,7 @@ This is not 100% free. The monthly cost in case of a "Pay-AS-YOU-GO" subscriptio
 * Linux OS (tested on CentOS 7)
 * Azure-Cli 2.x
 * Azure subscription
+* Azure DNS zone
 
 # Installation
 

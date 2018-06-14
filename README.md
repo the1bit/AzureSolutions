@@ -7,6 +7,14 @@ If you have any questions please do not hesitate to contact me. I'd appreciate a
 You can use this page and codes [from GitHub](https://github.com/the1bit/AzureSolutions) as well.
 
 ## Content
+* [azdns](https://github.com/the1bit/AzureSolutions/tree/master/azdns)
+	* Description: Alternate for dynamic DNS. This works with Azure DNS zone
+	* Prerequisites:
+		* Azure subscriptsion
+		* Azure DNS zone
+		* Azure-Cli 2.0
+		* Linux OS
+
 * [MerryXMas](https://github.com/the1bit/AzureSolutions/tree/master/MerryXMas)
 	* Description: I wish you a Merry XMAS and a Happy New Year for 2018.
 	* Prerequisites:
