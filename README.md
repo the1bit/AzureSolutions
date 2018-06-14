@@ -7,6 +7,12 @@ If you have any questions please do not hesitate to contact me. I'd appreciate a
 You can use this page and codes [from GitHub](https://github.com/the1bit/AzureSolutions) as well.
 
 ## Content
+* [azvmmanager](https://github.com/the1bit/AzureSolutions/tree/master/azvmmanager)
+	* Description: Start a VM at that time you configure.
+	* Prerequisites:
+		* Azure subscriptsion
+		* Azure-Cli 2.0
+		* Linux OS
 * [azdns](https://github.com/the1bit/AzureSolutions/tree/master/azdns)
 	* Description: Alternate for dynamic DNS. This works with Azure DNS zone
 	* Prerequisites:
