@@ -19,6 +19,7 @@ This is not 100% free. The monthly cost in case of a "Pay-AS-YOU-GO" subscriptio
 
 * Linux OS (tested on CentOS 7)
 * [Azure-Cli 2.x](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+* **[jq](https://stedolan.github.io/jq/download/)** package
 * Azure subscription
 * [Azure DNS zone](https://docs.microsoft.com/en-us/azure/dns/dns-zones-records)
 
