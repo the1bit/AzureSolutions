@@ -17,7 +17,6 @@ Everybody knows the automatic VM shutdown function in Azure. This solution helps
 
 * Linux OS (tested on CentOS 7)
 * [Azure-Cli 2.x](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
-* **[jq](https://stedolan.github.io/jq/download/)** package
 * Azure subscription
 
 # Installation
