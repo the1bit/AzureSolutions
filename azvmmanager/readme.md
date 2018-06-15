@@ -1,15 +1,23 @@
-Azure VM Manegr
+Azure VM Manager
 ===
 
 # Background
 
-Everybody knows the automatic VM shutdown function in Azure. This solution helps you to start your VM in Azure at that time when you schedule. So when you arrive to yout workplace your VM is up and running every time. :-)
+Everybody knows the automatic VM shutdown function in Azure. This solution helps you to start your VM in Azure at that time when you schedule. So when you arrive to your workplace your VM is up and running every time. :-)
+
+# Changelog
+
+## v18.6.0
+
+* Can start onyl 1 VM per instance in Azure
+* Manual **Crontab** configuration is required
 
 
 # Prerequisites
 
 * Linux OS (tested on CentOS 7)
-* Azure-Cli 2.x
+* [Azure-Cli 2.x](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+* **[jq](https://stedolan.github.io/jq/download/)** package
 * Azure subscription
 
 # Installation

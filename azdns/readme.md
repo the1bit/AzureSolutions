@@ -3,17 +3,25 @@ Dynamic DNS in Azure
 
 # Background
 
-This solution helps you to update your home server public IP dynamically. This is an alternative for NO-IP (where you have to cinfirm your host every 30 days). Here you don't need to confirm your host settings in a central surface.
+This solution helps you to update your home server public IP dynamically. This is an alternative for NO-IP (where you have to confirm your host every 30 days). Here you don't need to confirm your host settings in a central surface.
 
 This is not 100% free. The monthly cost in case of a "Pay-AS-YOU-GO" subscription is about **1 EUR/month**.
+
+# Changelog
+
+## v18.6.0
+
+* Can update dns zone in Azure
+* Manual **Crontab** configuration is required
 
 
 # Prerequisites
 
 * Linux OS (tested on CentOS 7)
-* Azure-Cli 2.x
+* [Azure-Cli 2.x](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+* **[jq](https://stedolan.github.io/jq/download/)** package
 * Azure subscription
-* Azure DNS zone
+* [Azure DNS zone](https://docs.microsoft.com/en-us/azure/dns/dns-zones-records)
 
 # Installation
 
@@ -24,13 +32,13 @@ This is not 100% free. The monthly cost in case of a "Pay-AS-YOU-GO" subscriptio
 {
 	"zoneName": "<domain name>",
 	"aRecordName": "<subdomain>",
+	"dnsResourceGroup": "<DNS Zone resource group>",
 	"azure": {
 		"cloudName": "AzureCloud",
 		"clientID": "<Service Principal ID>",
 		"clientSecret": "<Service Principal Secret>",
 		"tenant": "<Tenant ID>",
-		"subscriptionID": "<Subscription ID>",
-		"dnsResourceGroup": "<DNS Zone resource group>"
+		"subscriptionID": "<Subscription ID>"
 	}
 }
 ```

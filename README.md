@@ -8,18 +8,23 @@ You can use this page and codes [from GitHub](https://github.com/the1bit/AzureSo
 
 ## Content
 * [azvmmanager](https://github.com/the1bit/AzureSolutions/tree/master/azvmmanager)
-	* Description: Start a VM at that time you configure.
+	* Description: Starts a VM at that time you configure.
+	* Version: 18.6.0
 	* Prerequisites:
 		* Azure subscriptsion
 		* Azure-Cli 2.0
 		* Linux OS
+		* **jq** package
+
 * [azdns](https://github.com/the1bit/AzureSolutions/tree/master/azdns)
-	* Description: Alternate for dynamic DNS. This works with Azure DNS zone
+	* Description: Alternative for dynamic DNS. This works with Azure DNS zone
+	* Version: 18.6.0
 	* Prerequisites:
 		* Azure subscriptsion
 		* Azure DNS zone
 		* Azure-Cli 2.0
 		* Linux OS
+		* **jq** package
 
 * [MerryXMas](https://github.com/the1bit/AzureSolutions/tree/master/MerryXMas)
 	* Description: I wish you a Merry XMAS and a Happy New Year for 2018.
