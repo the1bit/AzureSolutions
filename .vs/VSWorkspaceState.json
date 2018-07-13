@@ -1,10 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\azdns",
+    "\\azdns\\config",
+    "\\azvmmanager",
+    "\\azvmmanager\\config",
     "\\MerryXMas",
     "\\Restore",
     "\\Restore\\UnmanagedDisk"
   ],
-  "SelectedNode": "\\Restore\\UnmanagedDisk\\restore.py",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
