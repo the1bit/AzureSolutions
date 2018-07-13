@@ -261,3 +261,5 @@ __pycache__/
 *.pyc
 
 .vs/slnx.sqlite
+
+App.config
