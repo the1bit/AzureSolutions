@@ -117,6 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\azuredns-eventlog.png" />
+    <Content Include="images\azuredns-files.png" />
     <Content Include="images\azuredns-taskscheduler01.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -26,8 +26,12 @@ This is not 100% free. The monthly cost in case of a "Pay-AS-YOU-GO" subscriptio
 # Installation
 
 1. Pull the solution from my git
-2. Create a Service Principal for your account. [More information is here.](http://www.the1bit.hu/technical-thursday-azure-resources-with-ansible/#create-service-principal)
-3. Edit configuration file (**azuredns.exe.config**)
+2. Rebuild the solution. Then copy the files to their final place.
+
+![Azure DNS files](images/azuredns-files.png)
+
+3. Create a Service Principal for your account. [More information is here.](http://www.the1bit.hu/technical-thursday-azure-resources-with-ansible/#create-service-principal)
+4. Edit configuration file (**azuredns.exe.config**)
 ``` xml 
 <?xml version="1.0" encoding="utf-8"?>
 ...
@@ -44,12 +48,12 @@ This is not 100% free. The monthly cost in case of a "Pay-AS-YOU-GO" subscriptio
   </appSettings>
 </configuration>
 ```
-4. Save configuration file
-5. Configure in **Task scheduler** according to your update requirement (**Important: Local admin privileges required for very first execution**)
+5. Save configuration file
+6. Configure in **Task scheduler** according to your update requirement (**Important: Local admin privileges required for very first execution**)
 
 ![Task summary](images/azuredns-taskscheduler01.png)
 
-6. Wait for the required time then check **Application** EventLong
+7. Wait for the required time then check **Application** EventLong
 
 ![Application EventLog](images/azuredns-eventlog.png)
 
