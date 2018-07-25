@@ -12,13 +12,9 @@ namespace azuredns_srv
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        static void Main()
+        static void Main(string[] args)
         {
-            ServiceBase[] ServicesToRun;
-            ServicesToRun = new ServiceBase[]
-            {
-                new AzureDNS()
-            };
+            ServiceBase[] ServicesToRun = new ServiceBase[] { new AzureDNS(args) };
             ServiceBase.Run(ServicesToRun);
         }
     }

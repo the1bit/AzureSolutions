@@ -2,6 +2,34 @@
 
 namespace Enum
 {
+    enum Operations
+    {
+        Create,
+        update,
+        Delete
+    }
+
+    enum Status
+    {
+        success,
+        error,
+        exists,
+        notexist,
+        unknown,
+    }
+
+    enum Records
+    {
+        A,
+        AAA,
+        CNAME,
+        MX,
+        NS,
+        PTR,
+        SRV,
+        TXT
+    }
+
     public enum ServiceState
     {
         SERVICE_STOPPED = 0x00000001,
