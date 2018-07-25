@@ -5,7 +5,7 @@
 
 ## Download
 
-[AzureDNS_v18.7.0.zip](AzureDNS_v18.7.0.zip)
+[AzureDNS_v18.7.0.zip](https://github.com/the1bit/AzureSolutions/raw/master/azuredns/azuredns/releases/AzureDNS_v18.7.0.zip)
 
 ## Install and configure
 
