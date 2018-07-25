@@ -34,8 +34,8 @@ This is not 100% free. The monthly cost in case of a "Pay-AS-YOU-GO" subscriptio
 4. Edit configuration file (**azuredns.exe.config**)
 ``` xml 
 <?xml version="1.0" encoding="utf-8"?>
-...
 <configuration>
+  ...
   <appSettings>
     <add key="zoneName" value="domain name"/>
     <add key="aRecordName" value="subdomain"/>
