@@ -48,6 +48,7 @@ This is not 100% free. The monthly cost in case of a "Pay-AS-YOU-GO" subscriptio
 5. Configure in **Task scheduler** according to your update requirement (**Important: Local admin privileges required for very first execution**)
 
 ![Task summary](images/azuredns-taskscheduler01.png)
+
 6. Wait for the required time then check **Application** EventLong
 
 ![Application EventLog](images/azuredns-eventlog.png)
