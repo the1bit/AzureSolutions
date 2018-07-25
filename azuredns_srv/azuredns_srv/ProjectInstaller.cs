@@ -23,7 +23,7 @@ namespace azuredns_srv
 
         protected override void OnBeforeInstall(IDictionary savedState)
         {
-            string parameter = "azuredns\" \"application";
+            string parameter = "AzureDNS\" \"application";
             Context.Parameters["assemblypath"] = "\"" + Context.Parameters["assemblypath"] + "\" \"" + parameter + "\"";
             base.OnBeforeInstall(savedState);
         }

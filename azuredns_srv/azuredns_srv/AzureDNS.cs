@@ -30,14 +30,14 @@ namespace azuredns_srv
         private static extern bool SetServiceStatus(IntPtr handle, ref ServiceStatus serviceStatus);
 
         private const string EVENTLOG_SOURCE = "AzureDNS";
-        private string ZONE_NAME;
-        private string A_RECORD_NAME;
-        private string DNS_RESOURCE_GROUP;
-        private string CLOUD_NAME;
-        private string CLIENT_ID;
-        private string CLIENT_SECRET;
-        private string TENANT_ID;
-        private string SUBSCRIPTION_ID;
+        private string ZONE_NAME = null;
+        private string A_RECORD_NAME = null;
+        private string DNS_RESOURCE_GROUP = null;
+        private string CLOUD_NAME = null;
+        private string CLIENT_ID = null;
+        private string CLIENT_SECRET = null;
+        private string TENANT_ID = null;
+        private string SUBSCRIPTION_ID = null;
 
 
         public AzureDNS(string[] args)

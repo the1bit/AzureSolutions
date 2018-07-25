@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azuredns_srv", "azuredns_srv\azuredns_srv.csproj", "{E3EE5CF0-00A7-4A18-A4D4-F9DDEBA02123}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azuredns", "azuredns_srv\azuredns.csproj", "{E3EE5CF0-00A7-4A18-A4D4-F9DDEBA02123}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
