@@ -79,6 +79,8 @@
     </None>
     <None Include="doc\errorcodes.md" />
     <None Include="readme.md" />
+    <None Include="releases\AzureDNS_v18.7.0.zip" />
+    <None Include="releases\readme.md" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
