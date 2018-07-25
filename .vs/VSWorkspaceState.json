@@ -1,6 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
+    "\\70532",
+    "\\70532\\01Blobs",
     "\\azdns",
     "\\azdns\\config",
     "\\azvmmanager",
@@ -9,6 +10,5 @@
     "\\Restore",
     "\\Restore\\UnmanagedDisk"
   ],
-  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
