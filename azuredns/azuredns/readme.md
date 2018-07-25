@@ -26,7 +26,7 @@ This is not 100% free. The monthly cost in case of a "Pay-AS-YOU-GO" subscriptio
 # Installation
 
 1. Pull the solution from my git
-2. Rebuild the solution. Then copy the files to their final place. Or download the latest release from [here](releases)
+2. Rebuild the solution or download the latest release from [here](releases). Then copy the files to their final place. 
 
 ![Azure DNS files](images/azuredns-files.png)
 
