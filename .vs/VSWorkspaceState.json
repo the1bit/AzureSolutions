@@ -1,14 +1,16 @@
 {
   "ExpandedNodes": [
+    "",
     "\\70532",
     "\\70532\\01Blobs",
-    "\\azdns",
-    "\\azdns\\config",
+    "\\azuredns_srv",
+    "\\azuredns_srv\\azuredns_srv",
     "\\azvmmanager",
     "\\azvmmanager\\config",
     "\\MerryXMas",
     "\\Restore",
     "\\Restore\\UnmanagedDisk"
   ],
+  "SelectedNode": "\\azuredns_srv\\azuredns_srv",
   "PreviewInSolutionExplorer": false
 }
